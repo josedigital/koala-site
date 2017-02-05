@@ -8,6 +8,9 @@
   /* flexbox grid */*{box-sizing:border-box;}.container{margin:0 auto;width:95%;}@media(min-width:750px){.container{width:90%;}}.Grid{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.Grid.top{-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;-ms-grid-row-align:flex-start;align-items:flex-start}.Grid.middle{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center}.Grid.bottom{-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;-ms-grid-row-align:flex-end;align-items:flex-end}.Grid.stretch{-webkit-box-align:stretch;-webkit-align-items:stretch;-ms-flex-align:stretch;-ms-grid-row-align:stretch;align-items:stretch}.Grid.baseline{-webkit-box-align:baseline;-webkit-align-items:baseline;-ms-flex-align:baseline;-ms-grid-row-align:baseline;align-items:baseline}.Grid.left{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.Grid.center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.Grid.right{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.Grid.between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.Grid.around{-ms-flex-pack:distribute;justify-content:space-around}.Cell{box-sizing:border-box;-ms-flex-negative:0;flex-shrink:0;order:10}.Cell:first-child{padding-left:0}.Cell:last-child{padding-right:0}.Cell.fill{width:100%;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}@media (min-width:750px){.Cell.fill{min-width:0;width:0}}.Cell.eight,.Cell.eleven,.Cell.five,.Cell.four,.Cell.nine,.Cell.one,.Cell.seven,.Cell.six,.Cell.ten,.Cell.three,.Cell.twelve,.Cell.two{width:100%}@media (min-width:750px){.Cell{padding:1rem}.Cell.one{width:8.33333%}.Cell.two{width:16.66667%}.Cell.three{width:25%}.Cell.four{width:33.33333%}.Cell.five{width:41.66667%}.Cell.six{width:50%}.Cell.seven{width:58.33333%}.Cell.eight{width:66.66667%}.Cell.nine{width:75%}.Cell.ten{width:83.33333%}.Cell.eleven{width:91.66667%}.Cell.twelve{width:100%}}@media (max-width:749px){.first{order:1}.second{order:2}.third{order:3}}
 
 /* Helpers */
+.text-center {
+  text-align: center;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -88,6 +91,7 @@ h3, .h3 {
 
 .Works {
   background-color: #fff;
+  padding: 4rem 0;
 }
 
 
