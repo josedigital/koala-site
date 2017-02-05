@@ -31,6 +31,49 @@ h3, .h3 {
 
 
 
+/* Landing Page */
+.Landing {
+  height: 100vh;
+  padding: 10rem 0;
+  text-align: center;
+}
+.Landing__logo img {
+  height: auto;
+  margin-bottom: -3rem;
+  width: 25%;
+}
+.Landing__logo h1 {
+  color: #fff;
+  font-weight: bold;
+}
+.Landing__video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  opacity: 0.2;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; 
+}
+
+.Works {
+  background-color: #fff;
+}
+
+
+
+
+
+
+
 
 /* Job */
 .Job {
